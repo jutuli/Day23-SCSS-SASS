@@ -212,6 +212,9 @@ nav > img:hover {
 
 .service-container {
   background: url(../img/div-services.png) center/cover no-repeat;
+  background-attachment: fixed;
+  position: relative;
+  z-index: 1;
   color: white;
 }
 

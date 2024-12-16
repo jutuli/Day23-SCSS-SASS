@@ -95,6 +95,9 @@ nav > img:hover {
 //  ============================= OUR SERVICE =====================
 .service-container {
   @include backgroundImg("../img/div-services.png");
+  background-attachment: fixed;
+  position: relative;
+  z-index: 1;
   color: white;
 }
 
