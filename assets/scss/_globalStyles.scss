@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+h1 {
+  color: #fff;
+  text-align: center;
+  font-family: "Nixie One", Arial, Helvetica, sans-serif;
+  font-size: 5.6rem;
+  font-weight: 400;
+  line-height: 100%;
+}
+
+h2 {
+  font-family: "Alegraya Sans", Arial, Helvetica, sans-serif;
+  font-size: 3.6rem;
+  font-weight: 500;
+  line-height: 110%;
+}
+
+h3 {
+  font-family: "Alegraya Sans", Arial, Helvetica, sans-serif;
+  font-size: 3rem;
+  font-weight: 500;
+  line-height: 110%;
+}
+
+p {
+  font-family: "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 142.857%;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
