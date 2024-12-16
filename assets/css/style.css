@@ -1,9 +1,9 @@
 @font-face {
-  font-family: "Alegraya SC";
+  font-family: "Alegreya SC";
   src: url(../font/AlegreyaSC-Regular.ttf);
 }
 @font-face {
-  font-family: "Alegraya Sans";
+  font-family: "Alegreya Sans";
   src: url(../font/AlegreyaSC-Regular.ttf);
 }
 @font-face {
@@ -56,4 +56,26 @@ a {
 
 img {
   max-width: 100%;
+}
+
+.logo {
+  font-family: "Alegreya SC";
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 110%;
+  color: white;
+}
+
+header {
+  background-image: url(../img/div-header.png);
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }/*# sourceMappingURL=style.css.map */
