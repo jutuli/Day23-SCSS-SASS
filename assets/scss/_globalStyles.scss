@@ -57,10 +57,9 @@ img {
 }
 
 .container {
-  margin: 6rem 13.5rem;
+  padding: 6rem 13.5rem;
   display: flex;
   flex-direction: column;
-  gap: 6rem;
 }
 
 button {
@@ -92,4 +91,24 @@ button {
   display: grid;
   grid-template: auto / repeat(3, 1fr);
   gap: 3rem;
+}
+
+.opacity {
+  background-color: rgba(0, 0, 0, 0.2);
+  padding: 1.8rem 1.5rem;
+}
+
+.heading-left {
+  @include headingTextFlex;
+  justify-content: start;
+}
+
+.heading-center {
+  @include headingTextFlex;
+  justify-content: center;
+  text-align: center;
+}
+
+.heading {
+  margin-bottom: 6rem;
 }

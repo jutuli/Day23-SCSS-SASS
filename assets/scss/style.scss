@@ -23,17 +23,8 @@ nav {
 nav > img:hover {
   @include hoverEffect;
 }
-
-.heading-center {
-  @include headingTextFlex;
-  justify-content: center;
-  height: 100vh;
-  text-align: center;
-}
-
-.heading-left {
-  @include headingTextFlex;
-  justify-content: start;
+.header-text {
+  height: calc(100vh - 9vh);
 }
 
 .heading {
@@ -99,4 +90,17 @@ nav > img:hover {
       background-color: white;
     }
   }
+}
+
+//  ============================= OUR SERVICE =====================
+.service-container {
+  @include backgroundImg("../img/div-services.png");
+  color: white;
+}
+
+.service {
+  @include headingTextFlex;
+  align-items: center;
+  text-align: center;
+  gap: 1.6rem;
 }
