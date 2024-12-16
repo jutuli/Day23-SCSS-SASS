@@ -22,3 +22,26 @@
 @mixin hoverEffect {
   cursor: pointer;
 }
+
+@mixin parallaxEffect {
+  background-attachment: fixed;
+  position: relative;
+  z-index: 1;
+  color: white;
+}
+
+@mixin whiteBtn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: opacity 0.3s ease-in-out, background-color 0.3s ease-in-out,
+    color 0.3s ease-in-out;
+}
+
+@mixin whiteBtn2 {
+  opacity: 1;
+  color: white;
+  border: 1px solid white;
+  z-index: 2;
+}

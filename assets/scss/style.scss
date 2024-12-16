@@ -77,13 +77,8 @@ nav > img:hover {
   }
 
   .lorem-rocks-btn {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    @include whiteBtn;
     opacity: 0;
-    transition: opacity 0.3s ease-in-out, background-color 0.3s ease-in-out,
-      color 0.3s ease-in-out;
 
     &:hover {
       color: #3a4f52;
@@ -95,10 +90,7 @@ nav > img:hover {
 //  ============================= OUR SERVICE =====================
 .service-container {
   @include backgroundImg("../img/div-services.png");
-  background-attachment: fixed;
-  position: relative;
-  z-index: 1;
-  color: white;
+  @include parallaxEffect;
 }
 
 .service {
@@ -106,4 +98,14 @@ nav > img:hover {
   align-items: center;
   text-align: center;
   gap: 1.6rem;
+}
+
+// ============================ QUOTE =============================
+.quote-container {
+  @include backgroundImg("../img/div-quote.png");
+  @include parallaxEffect;
+}
+
+.quote-btn {
+  @include whiteBtn2;
 }
