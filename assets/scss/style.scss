@@ -12,4 +12,12 @@ header {
 
 nav {
   @include flexBetween;
+  padding: 2.5rem 3rem;
+}
+
+.heading {
+  @include headingFlex;
+  color: white;
+  justify-content: center;
+  height: 100vh;
 }

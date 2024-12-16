@@ -3,3 +3,10 @@
   justify-content: space-between;
   align-items: center;
 }
+
+@mixin headingFlex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.6rem;
+}
