@@ -6,6 +6,7 @@
 
 html {
   font-size: 10px;
+  color: #6a6a6a;
 }
 h1 {
   color: #fff;
@@ -52,4 +53,22 @@ img {
   font-weight: 500;
   line-height: 110%;
   color: white;
+}
+
+.container {
+  margin: 6rem 13.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 6rem;
+}
+
+button {
+  padding: 1.2rem 1.7rem;
+  border: 1px solid #3a4f52;
+  background-color: white;
+  font-family: "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 1.8rem;
+  line-height: 133%;
+  font-weight: 400;
+  text-align: center;
 }

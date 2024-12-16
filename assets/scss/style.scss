@@ -4,10 +4,9 @@
 @import "globalStyles";
 
 header {
-  background-image: url(../img/div-header.png);
-  background-size: cover;
   height: 100vh;
-  width: 100vw;
+  @include backgroundImg("../img/div-header.png");
+  color: white;
 }
 
 nav {
@@ -15,9 +14,27 @@ nav {
   padding: 2.5rem 3rem;
 }
 
-.heading {
-  @include headingFlex;
-  color: white;
+.logo:hover {
+  text-decoration: underline;
+  @include hoverEffect;
+}
+
+nav > img:hover {
+  @include hoverEffect;
+}
+
+.heading-center {
+  @include headingTextFlex;
   justify-content: center;
   height: 100vh;
+  text-align: center;
+}
+
+.heading-left {
+  @include headingTextFlex;
+  justify-content: start;
+}
+
+.heading {
+  @include headingFlex;
 }
