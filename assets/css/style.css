@@ -244,4 +244,9 @@ nav > img:hover {
   color: white;
   border: 1px solid white;
   z-index: 2;
+}
+
+footer {
+  background-color: #2b3e51;
+  color: white;
 }/*# sourceMappingURL=style.css.map */
